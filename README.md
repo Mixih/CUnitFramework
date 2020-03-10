@@ -18,6 +18,8 @@ A unit testing library written in pure C because I shouldn't have.
 
 ## Example
 ```C
+#include "test.h"
+
 SETUPFUNC(setup) {
     // common setup commands to run
 }
