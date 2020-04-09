@@ -1,10 +1,10 @@
-# CUnitLib 
+# CUnitFramework (CUF)
 
 A unit testing library written in pure C because I shouldn't have.
 
 ## Usage
 
-1. Populate `uut.h` with details of the software unit under test.
+1. Define a "uut" object 
 2. Declare setup and teardown functions using the SETUPFUNC and TEARDOWNFUNC
    macros respectively. Note that the name you provide as the argument will be
    the name of the function
